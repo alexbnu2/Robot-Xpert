@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.9.4 on win32)" generated="20210823 21:18:51.015" rpa="false" schemaversion="2">
+<suite id="s1" name="Dicionarios" source="C:\RobotXpert\start\dicionarios.robot">
+<test id="s1-t1" name="Obtendo valores de um dicionário">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${CARRO.nome} ${CARRO.portas}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210823 21:18:51.091" endtime="20210823 21:18:51.094"/>
+</kw>
+<status status="PASS" starttime="20210823 21:18:51.090" endtime="20210823 21:18:51.095"/>
+</test>
+<doc>Conhecendo os Dicionários do Robot (Nativo no Python)</doc>
+<status status="PASS" starttime="20210823 21:18:51.019" endtime="20210823 21:18:51.097"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Dicionarios">Dicionarios</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
